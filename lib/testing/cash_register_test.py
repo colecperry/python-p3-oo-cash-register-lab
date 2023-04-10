@@ -10,6 +10,7 @@ class TestCashRegister:
 
     cash_register = CashRegister()
     cash_register_with_discount = CashRegister(20)
+    
 
     def reset_register_totals(self):
       self.cash_register.total = 0
